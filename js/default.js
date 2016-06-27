@@ -3,6 +3,7 @@ document.getElementById('form').onsubmit=function(){
   window.alert(document.getElementById('form').word.value);
 };
 
+/*
 for(var i=0;i<word;i++){
   var li=document.createElement('li');
 
@@ -27,3 +28,4 @@ for(var i=0;i<word;i++){
 
 document.getElementById('list').appendChild(li);  
 }
+*/
