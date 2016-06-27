@@ -10,8 +10,8 @@ var arg = new Object;
 var pair=location.search.substring(1).split('&');
 var word = 100;
 if(pair){
-    var kv = pair[1].split('=');
-    word = kv[1];
+    var kv = pair[0].split('=');
+    word = kv[0];
 }
 
 
