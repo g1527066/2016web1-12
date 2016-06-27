@@ -35,9 +35,9 @@ for(var i=1;i<word;i++){
       document.write(i);
   }
   
-   document.write("\n");
+   document.write("\f");
 
-//document.getElementById('list').appendChild(li);  
+
 }
 break;
 }
