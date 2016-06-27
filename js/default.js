@@ -18,15 +18,15 @@ if(pair){
 for(var i=0;i<word;i++){
   //var li=document.createElement('li');
 
-  if(word%3===0&&word%5===0)//3.5の公倍数か判断
+  if(i%3===0&&i%5===0)//3.5の公倍数か判断
   {
       document.write("FizzBuzz");
   }
-  else if(word%3===0)//３の倍数か判断
+  else if(i%3===0)//３の倍数か判断
   {
       document.write("Fizz");
   }
-  else if(word%5===0)//5の倍数か判断
+  else if(i%5===0)//5の倍数か判断
   {
       document.write("Buzz");
   }
