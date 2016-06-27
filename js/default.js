@@ -11,7 +11,7 @@ var pair=location.search.substring(1).split('&');
 var word = 100;
 if(pair){
     var kv = pair[0].split('=');
-    word = str_to_int(kv[1]);
+    word = parseInt(kv[1]);
 }
 
 
