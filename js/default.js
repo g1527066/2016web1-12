@@ -12,19 +12,19 @@ for(var i=0;i<word;i++){
 
   if(word%3===0&&word%5===0)//3.5の公倍数か判断
   {
-      document.getElementById('choice').textContent=FizzBuzz;
+      document.write("FizzBuzz");
   }
   else if(word%3===0)//３の倍数か判断
   {
-      document.getElementById('choice').textContent=Fizz;
+      document.write("Fizz");
   }
   else if(word%5===0)//5の倍数か判断
   {
-      document.getElementById('choice').textContent=Buzz;
+      document.write("Buzz");
   }
   else
   {
-      document.getElementById('choice').textContent=word;
+      document.write(word);
   }
   
   
