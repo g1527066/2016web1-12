@@ -15,7 +15,7 @@ if(pair){
 }
 
 
-for(var i=0;i<word;i++){
+for(var i=1;i<word;i++){
   //var li=document.createElement('li');
 
   if(i%3===0&&i%5===0)//3.5の公倍数か判断
