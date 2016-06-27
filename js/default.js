@@ -7,7 +7,7 @@ document.getElementById('form').onsubmit=function(){
 //結果を表示
 
 for(var i=0;i<word;i++){
-  var li=document.createElement('li');
+  //var li=document.createElement('li');
 
   if(word%3===0&&word%5===0)//3.5の公倍数か判断
   {
