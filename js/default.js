@@ -1,4 +1,5 @@
 document.getElementById('form').onsubmit=function(){
+    // li,textContent=;
   window.alert(document.getElementById('form').word.value);
 };
 
