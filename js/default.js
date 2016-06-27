@@ -6,6 +6,10 @@ document.getElementById('form').onsubmit=function(){
 
 
 //結果を表示
+var arg = new Object;
+var pair=location.search.substring(1).split('&');
+var kv = pair[1].split('=');
+var word = kv[1];
 
 for(var i=0;i<word;i++){
   //var li=document.createElement('li');
