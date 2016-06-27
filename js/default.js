@@ -32,7 +32,7 @@ for(var i=0;i<word;i++){
   }
   else
   {
-      document.write(word);
+      document.write(i);
   }
   
   
