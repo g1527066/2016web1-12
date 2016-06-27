@@ -1,7 +1,7 @@
 document.getElementById('form').onsubmit=function(){
     // li,textContent=;
   window.alert(document.getElementById('form').word.value);
-};
+
 
 //結果を表示
 
@@ -29,4 +29,4 @@ for(var i=0;i<word;i++){
 
 document.getElementById('list').appendChild(li);  
 }
-
+};
